@@ -53,7 +53,7 @@
 
     <h3 id="Abstract">Abstract</h3>
 
-    <p class="main article"
+    <p class="abstract"
     <pre>  
       Sonar is a vital technology used for navigation, deep see exploration, and scientific research. Based on principles of sound propagation, sonar systems are used to map and identify objects below the surface of our great oceans. Dating back to the crash of the Titanic and the search for an iceberg detection system, sonar relies on the mechanical vibrations transmitted by sound waves in water. The two main types of sonar include active and passive. Active sonar involves transmitting soundwaves to measure the time it takes for waves to return after reflecting off an object, while passive sonar detects naturally occurring sounds. With the evolution of ever more sophisticated systems, sonar remains essential for advancing our knowledge in marine environments.
     </pre>
@@ -62,48 +62,49 @@
     <h3 id="Main Article">Main Article</h3>
 
     <p class="introduction"
-    <pre>
+    <pre id="introduction_InText">
       Sonar, otherwise know as Sound Navigation and Ranging systems, have a variety of uses in the world of engineering and science. Whether it is used for navigation, deep sea exploration, scientific research or submarine warfare, the information it can provide us is crucial for advancing our understanding of the ocean. This article looks briefly into the history of Sonar and its fundamentals.
     </pre>
     </p>
       
- 
+      <p class="main article"
+    <pre id="Main Article_InText">
       Sonar was first discovered using similar principles to its predecessor radar. This is due to radar using radio waves which are very similar to the sound waves used in Sonar. Radar was first patented in Germany 1904 by Christian Hülsmeyer (German Patent Office, 1904) and has been technically improved continuously for the last 120 years. The rapid development of automotive radars being able to recognize different objects and assign risk of collision (Stateczny, Kazimierski, Kulpa, 2021) is just one example of these advancements. Sonar was then made known in 1914 by Fessenden in the US. Following the tragic events of the titanic, studies were being carried out to find an iceberg detection system. Fessenden could detect an iceberg from 2 nautical miles with the help of a dynamic loudspeaker (Marage, Mori, 2010).
     </pre>
       </p>
 
       <p class="main article"
-    <pre>
+    <pre id="Main Article_InText">
       Sonar is fundamentally different to radar and electro-optical systems. With energy being transferred to the receiver through mechanical vibrations (Hodges, 2010), sonar cannot be used in a vacuum. However, a sound wave is also the only physical medium that can be propagated over long distances in water. This means that sonar is perfect for use in sub-aquatic environments as other forms of energy emission quickly dissipate as heat (Li, 2012). 
     </pre>
       </p>
 
       <p class="main article"
-    <pre>
+    <pre id="Main Article_InText">
       A definition of Sonar is: ‘the method or equipment which detects the existence of, locates the position of, and identifies an underwater object using underwater acoustic waves. In a broad sense, any system that uses underwater acoustic energy to observe or to communicate is called a sonar system’ (Li, 2012, p.27).
     </pre>
       </p>
 
       <p class="main article"
-    <pre>
+    <pre id="Main Article_InText">
        The fundamentals behind sonar are based on the propagation of sound waves between a target and a receiver. There are four different types of sonar, the main two being passive and active, with ambient and daylight sonar being a little more uncommon.  Using a passive sonar system, energy originates at a target and propagates to the receiver, analogous to passive infrared detection (Hodges, 2010). An active sonar system uses wave propagation from the transmitter to measure waves reflected by a target back to a receiver, analogous to pulse-echo radar (Hodges, 2010). And for both daylight and ambient sonar, the environment is the source of the sound which bounces off/is blocked by the target; The effects of which can be observed by the receiver. This type of sonar is analogous to human sight (Hodges, 2010).
     </pre>
       </p>
 
         <p class="main article"
-    <pre>
+    <pre id="Main Article_InText">
         When using active sonar, submarines send out propagating waves using a transmitter and measure the velocity, doppler shift, and time it takes for the wave to return to the receiver. The computer then calculates how far away an object is, and whether or not it is moving in relation to the array. It is important to note the distance the wave has travelled is double the distance between the array and the object.
     </pre>
       </p>
       
       <p class="main article"
-    <pre>
+    <pre id="Main Article_InText">
       ‘Targets’ and ‘Clutter’ are key terms when it comes to both radar and sonar. ‘Targets’ are a term used to describe objects of interest, whilst ‘Clutter’ is a term used to describe unwanted reflections detected by sonar; An example of a ‘Target’ would be a submarine, whilst a rock formation would be considered ‘clutter’. Radar/sonar designers have been working for decades to try and filter out clutter returns as much as possible. Initially it was primarily used as a sensor to detect and track targets, as only limited information could be extracted from the reflected radar/sonar signal (Tait, 2006). A ‘blip’ or ‘plot’ was conventionally used to represent a reflection from the target, which lacked resolution on target features (Tait, 2006).
     </pre>
     </p>
 
       <p class="main article"
-    <pre>
+    <pre id="Main Article_InText">
         As systems have become more advanced, a modern sonar system has become more like a multi-function computer (Li, 2012). Modern submarines often have multiple different sensors and sonar arrays on the hull. With the technology being advanced enough to accurately tell what is sending back each reflection, submarines have many specialised arrays. An example of these would be a cylindrical array, flank array, distributed passive ranging array, mine avoidance sonar array, and interception sonar array (Li, 2012). There are also many sensors on a modern submarine, such as depth sensors and self-noise monitoring sensors (Li, 2012).
     </pre>
     </p>
@@ -114,7 +115,7 @@
     <h3 id="Conclusion">Conclusion</h3>
 
         <p class="main article"
-    <pre>
+    <pre id="Main Article_InText">
         In conclusion, sonar is Sound Navigation and Ranging system used to map and navigate objects in the ocean. There are 4 different types of sonar, but active and passive are the most common. Using the propagation of sound waves in water, using velocity, frequency and time, you can calculate the distance the wave has travelled in a medium to determine the distance to an object. Sonar has constantly developed over the last 120 years and will continue to do so as it plays a vital role in many nautical aspects.
     </pre>
     </p>      
@@ -156,6 +157,9 @@
       Tait, P. (2006) Introduction to Radar Target Recognition. Stevenage: IET.
     </pre>
     </p>
+
+    <video src="" width="800" height="450" controls>
+    </video>
       
 <!-- Last commit time display -->
 <div id="last-updated">Loading last update time...</div>
@@ -165,8 +169,8 @@
 </button>
 <script>
     async function getLastUpdatedTime() {
-        const username = 'nr0025';
-        const repo = 'FY0025';
+        const username = 'FEPSFY6804232';
+        const repo = 'FY6804232';
        
         const url = `https://api.github.com/repos/${username}/${repo}/commits`;
         try {
@@ -220,7 +224,7 @@
   // Function to calculate and display total word count from selected sections
   function displayTotalWordCount() {
     // Calculate word count for each section and accumulate the total
-    const IntroductionCount = displayWordCount("Conclusion");
+    const IntroductionCount = displayWordCount("introduction");
     const AnalysisCount = displayWordCount("Main Article");
     // Calculate the sum of all selected sections
     const totalWordCount = IntroductionCount + AnalysisCount;
