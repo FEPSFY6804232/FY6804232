@@ -80,7 +80,7 @@
 
     <h3 id="Introduction">Introduction</h3>
 
-    <p id="Introduction" class="ex1">
+    <p id="Introduction_InText" class="ex1">
       Sonar, otherwise known as Sound Navigation and Ranging systems, have a variety of uses in the world of engineering and science. Whether it is used for navigation, deep sea exploration, scientific research or submarine warfare, the information it can provide us is crucial for advancing our understanding of the ocean. This article looks briefly into the history of Sonar and its fundamentals.
     </p>
 
@@ -119,7 +119,7 @@
       
     <h3 id="Conclusion">Conclusion</h3>
 
-    <p id="Conclusion" class="ex1">
+    <p id="Conclusion_InText" class="ex1">
         In conclusion, sonar is Sound Navigation and Ranging system used to map and navigate objects in the ocean. There are 4 different types of sonar, but active and passive are the most common. Using the propagation of sound waves in water, using velocity, frequency and time, you can calculate the distance the wave has travelled in a medium to determine the distance to an object. Sonar has constantly developed over the last 120 years and will continue to do so as it plays a vital role in many nautical aspects.
     </p>      
      
@@ -215,7 +215,7 @@
   // Function to calculate and display total word count from selected sections
   function displayTotalWordCount() {
     // Calculate word count for each section and accumulate the total
-    const IntroductionCount = displayWordCount("Introduction");
+    const IntroductionCount = displayWordCount("Introduction_InText");
     const Analysis1Count = displayWordCount("Analysis1");
     const Analysis2Count = displayWordCount("Analysis2");
     const Analysis3Count = displayWordCount("Analysis3");
@@ -223,7 +223,7 @@
     const Analysis5Count = displayWordCount("Analysis5");
     const Analysis6Count = displayWordCount("Analysis6");
     const Analysis7Count = displayWordCount("Analysis7");
-    const ConclusionCount = displayWordCount("Conclusion");
+    const ConclusionCount = displayWordCount("Conclusion_InText");
     // Calculate the sum of all selected sections
     const totalWordCount = IntroductionCount + Analysis1Count + Analysis2Count + Analysis3Count + Analysis4Count + Analysis5Count + Analysis6Count + Analysis7Count + ConclusionCount;
     // Display the total word count
